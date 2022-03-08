@@ -157,6 +157,7 @@ body {
   height: 10rem;
   margin: 1rem 0;
   border: 1px solid rgb(219, 219, 219);
+  outline: none;
 }
 
 .meetups label {
@@ -170,3 +171,4 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
+

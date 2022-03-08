@@ -5,15 +5,16 @@ const AllMeetUps = ({ allMeetUpsArr, showExtra = false }) => {
   function goToDetails(id) {
     router.push(`/fetchdetails/${id}`)
   }
+  console.log(allMeetUpsArr)
   return (
     <div className="all_meetups">
       <h1>All Meetups</h1>
       <div className="meetup_container">
         {allMeetUpsArr.map((item, index) => (
           <div className="main_meetups" key={index} onClick={()=>goToDetails(item._id)}>
-            <img src={item.img} />
+            <img src={item.image} />
             <div className="meetup_content">
-              <h2>{item.name}</h2>
+              <h2>{item.title}</h2>
               {showExtra ? (
                 <>
                   <p>{item.address}</p>

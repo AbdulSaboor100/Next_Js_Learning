@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/fetchdetails/[id]": [
+    "/addmeetups": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/fetchdetails/[id].js"
+      "static/chunks/pages/addmeetups.js"
     ]
   },
   "ampFirstPages": []
